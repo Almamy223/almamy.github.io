@@ -1,0 +1,522 @@
+body{
+     /*overflow:hidden;*/
+}
+
+p{
+    line-height: 145%;
+    font-weight:200;
+    font-size:16px;
+    font-family:arial, helvetica, sans-serif;
+}
+h2{
+    font-size:160%;
+    text-align:center;
+    letter-spacing:5px;
+    font-weight: 400;
+    
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:10000;
+    overflow:hidden;
+    background:black;
+}
+
+section{
+    margin:150px 0 
+}
+
+@media(max-width:600px){
+    section{
+        margin:75px 0;
+    }
+}
+html{
+    font-family:sans-serif;
+    line-height: 1.15;
+   /*  -ms-text-size-adjust:100%;*/ 
+    -webkit-text-size-adjust:100%;
+}
+
+nav, section{
+    display:block;
+}
+/* Star section */
+/* ------------- */
+.star{
+    background:  url("../images/mtl2.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    width:100%;
+    height:80vh;
+    margin-top:0;
+    margin-top:-8px;
+}
+.star ul{
+    display: -ms-flexbox;
+    display:flex;
+    justify-content: flex-end;
+    margin:0;
+    padding:20px 0;
+    font-size:14px;
+    list-style:none;
+    padding-right:60px;
+}
+.star ul li{
+text-transform:capitalize;
+    padding-right:30px;
+    letter-spacing:6px;
+    color:#FFF;
+}
+
+.star ul li a{
+
+    text-decoration:none;
+    color:#FFF;
+    padding-bottom:9px;
+    border-bottom:1px dotted transparent;
+    
+}
+.star ul li a:hover{
+   
+   border-bottom:1px dotted;
+    border-bottom-left-radius: 30px 40px;
+}
+
+.star .proffession{
+    text-align:center;
+    height:100%;
+    display:flex;
+    margin-top:-50px;
+   justify-content: center;
+   flex-direction:column;
+    
+}
+.star .proffession h1{
+    color:#FFF;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    font-weight:500;
+    font-size:38px;
+    padding-bottom: 20px;
+}
+.star .proffession p{
+    font-family:OCR A Std, monospace;
+    color:#fff;
+    font-size:25px;
+}
+
+@media(max-width:568px){
+    .star{
+        background-attachment: scroll;
+    }
+}
+
+@media(max-width:568px){
+    .star ul{
+        -ms-flex-pack:distribute;
+        justify-content:space-around;
+    }
+} 
+
+@media(max-width:568px){
+    .star ul li{
+        padding-right:0;
+    }
+}
+
+@media(max-width:450px){
+    .star ul li{
+        margin: 7px;
+        
+    }
+}
+@media(max-width:450px){
+    .star ul {
+        padding-right: 2px;
+        
+    }
+}
+
+@media(max-width:1000px){
+    .star .proffession h1{
+        letter-spacing:30px;
+    }
+}
+
+@media(max-width:900px){
+    .star .proffession h1{
+        letter-spacing:25px;
+    }
+}
+
+@media(max-width:805px){
+    .star .proffession h1{
+        font-size:30px;
+        letter-spacing:20px;
+    }
+}
+
+@media(max-width:670px){
+    .star .proffession h1{
+        font-size:25px;
+        letter-spacing:15px;
+    }
+}
+
+@media(max-width:500px){
+    .star .proffession h1{
+        font-size:22px;
+        letter-spacing:10px;
+    }
+}
+
+@media(max-width:645px){
+    .star .proffession p{
+        font-size:16px;
+       
+    }
+}
+@media(max-width:645px){
+    .portofo2 .porto-description .text {
+       font-size:13px;
+    }
+  
+}
+@media(min-width:646px){
+    .portofo2 .porto-description .text {
+       font-size:16px;
+    }
+  
+}
+
+
+@media(max-width:640px){
+    .button1{
+        width: 50%;
+        font-weight:2px; 
+        display:block;
+        line-height: 80%;
+        text-align: center;
+        min-width: 2em;
+        display: inline-block;
+       
+    }
+}
+
+/*@media(max-width:450px){ 
+    .send {
+       display: flex;
+       margin-left: 80%;
+       width: 100%;
+        
+    }
+}*/
+/* ABOUT ME */
+#me{width: 150px;}
+.tout .noyau{
+    text-align:center;
+}
+h2 a:after{
+     display: block;
+     background-color: burlywood;
+     height: 3px;
+     content: " ";
+     width: 150px;
+     margin: 20px auto;
+     margin-bottom: 60px;
+}
+
+
+.tout .noyau p{
+	font-weight: 300;
+	font-size: 20px;
+    line-height: 145%;
+    text-align:center;
+    width: 70%;
+    margin-left: 15%;
+    padding: 12px;
+     font-family: 'Open sans', sans-serif;
+    }
+
+/*.noyau p:first-letter {
+font-size: 3.5em;
+line-height: 1em;
+font-weight: 400;
+float: left;
+margin: 0 0.107em 0 0;
+}*/
+.noyau i {
+font-weight: 800;
+}
+
+.container .languages{
+    text-align: center;
+    font-size: 0;
+}
+.container .Item{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 18px;
+    margin:6px;
+    font-size: 30px;
+    font-weight: 300;
+}
+@media (max-width: 750px){
+    .container .Item{ font-size: 27px;}
+}
+.container .red{
+    background-color:red ;
+}
+.container .jaune{
+    background-color:#F7DC6F;
+}
+.container .orange{
+    background-color:#FF7E00 ;
+}
+.container .bleu{
+    background-color:#0000FF ;
+}
+
+.container .violet{
+    background-color:#9370DB ;
+}
+
+.container .vert{
+    background-color:#32CD32 ;
+}
+.container .blue{
+    background-color:#61dafb ;
+}
+.container .space{
+    padding: 6px;
+}
+
+
+/* PORTOFOLIO */
+.boite .fix0{
+    display: block;
+    margin-top:77px;
+}
+.portofo2 .porto-image{
+   
+    position: relative;
+    float:left;
+    width:50%;
+    padding:2px;
+    margin:2%
+  
+}
+.button1,.border1{
+    border-radius: 5px;
+    border: 1px solid #f5c453;
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    min-width: 4em;
+    transition: all 0.25s ease;
+}
+.button1:hover{
+    transform: scale(1.025);
+    transition: all 0.25s ease;
+    color: white;
+  }
+  .button1{
+      position: absolute;
+      top:35%;
+      left: 35%;
+      margin: 0 auto;
+      color: white;
+}
+.arrow-r{display: inline-block;transition: all 0.25s ease;}
+.arrow-right {
+    padding-left: 20px;
+  }
+a{color: #494c4e;
+    text-decoration: none;
+    margin-bottom: 1.25em;}
+
+.portofo2 .porto-image img{ 
+    width:100%;
+    position: static;
+}
+
+.portofo2 .porto-description{
+    float:right;
+    width:40%;
+    margin-top:1.5%;
+ 
+}
+
+.portofo2 .porto-description .text{
+    dispaly:inline;
+    text-align:left;
+    /* line-height:100%; */
+    padding:3px;
+    width:90%;
+    margin-left:6px;
+}
+.portofo2 .porto-description .text{
+    line-height: 145%;
+    /* font-size:17px; */
+    font-family:arial, helvetica, sans-serif;
+    width: 75%;
+    
+}
+.portofo2 .porto-description h3{
+   
+    font-family:'Open sans', sans-serif;
+}
+.portofo2 .porto-description h4{
+    font-variant: small-caps;
+}
+
+.portofo2 .portofolio-list-separator{
+    clear:both;
+    width:50%;
+    margin:15px auto;
+    
+}
+
+/*.porto-image:hover{
+    transform: scale(0.2);
+    -webkit-transform: scale(1.1);
+}*/
+
+
+/* CONTACT*/ 
+.contact1{
+    background:url("../images/contact.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    width:100%;
+    height:auto;
+    padding:1px;
+    margin-bottom:35px;
+    
+}
+ .contact1{
+  
+    clear:both;
+    width:100%;
+    display:block;
+  
+  
+} 
+
+.contact1 .cont{
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin:auto;
+    
+   
+}
+
+.contact1 .send{
+    width:120px;
+    display:block;
+    justify-content:center;
+    background-color:#5DADE2;
+    border-radius:0px;
+    padding:10px 0;
+    margin:auto ;
+}
+.contact1 .send a{
+    color:#FFF;
+    font-family:courier, fixed, monospace;
+    font-size:13px;
+    text-transform:uppercase;
+}
+
+.content-contact h2{ font-size:19px; color:white;}
+.content-contact P{ font-size:17px; color:white;}
+
+.content-contact {
+    display:block;
+    width:60%;
+    justify-content:center;
+    padding:15px 0;
+     margin:auto;
+     width: 50%;
+}
+
+.hide * {
+    display : none;
+}
+
+.hide {
+    display : none;
+   
+}
+
+/* loader */
+
+.contener_general {
+    width: 100px;
+    position : absolute;
+    left : 50%;
+    top : 50%;
+    
+}
+
+ /* footer */
+ 
+.fin{
+     display:block;
+     clear:both;
+     margin:0px;
+ }
+ footer{
+     margin-top:32px;
+ }
+.footer-copyright{
+    text-align:center;
+    font-size:9px;
+    padding:0;
+    margin:0px
+      
+}
+
+.red{color: black;}
+.bleu{color:black;}
+footer .bas{
+    display:flex;
+    padding:0px;
+    margin-bottom:0;
+    justify-content:center
+    
+} 
+footer ul{
+    display: -ms-flexbox;
+    display:flex;
+    list-style: none;
+ }
+footer ul li+li{margin-left:30px}
+
+i .fa-github, i .fa-linkedin{
+    display:block;
+}
+footer i{
+    color:#5DADE2;
+}
+footer i.fa-github:hover{color:#72FAC4; }
+footer i.fa-linkedin:hover{color:#72FAC4; }
+
+
+
+.copy{
+    float:right;
+    width:97%;
+    
+}
+
+
